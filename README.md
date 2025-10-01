@@ -1,4 +1,4 @@
-# DSC Lesson Plans & Curriculum
+# DSC Workshop Lesson Plans & Curriculum
 ### UVic Libraries Digital Scholarship Commons
 
 Link to workshop: https://uviclibraries.github.io/dsc/
