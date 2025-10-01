@@ -8,7 +8,7 @@ nav_order: 1
 
 # DSC Workshop Lesson Plans
 
-For a full list of our upcoming scheduled workshops, [visit our list here](https://www.uvic.ca/library/research-learning/workshops/index.php#ipn-all-workshops){:target="_blank"}.
+For a full list of our upcoming scheduled workshops, [visit our list here](https://libcal.uvic.ca/calendar/dsc?cid=7692&t=g&d=0000-00-00&cal=7692&inc=0){:target="_blank"}.
 
 If you have any questions about our workshops or are an instructor wanting to have us run one of our workshops in connection with your course, feel free to [send us an email](mailto:rmccue@uvic.ca?Subject=Workshop%20Request){:target="_blank"} to ask about availability. If you would like to be kept up to date with DSC announcements, including new workshops, you can sign up for our [low-volume email list here](https://e1.envoke.com/ext/pages/7ca0996db17fcc4be7f60392f6790490){:target="_blank"}.
 
