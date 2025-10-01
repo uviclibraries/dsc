@@ -41,24 +41,24 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Qualitative Coding with Taguette](https://lib.uvic.ca/tag){:target="_blank"}
 
 ## Research, Writing, & Communication Tools:
-- [Design & Layout with Canva](){:target="_blank"} - Introduction
-- [Academic Posters with Canva](){:target="_blank"}
-- [Creating & Teaching Active Learning Workshops](){:target="_blank"}
-- [Data Management Planning ](){:target="_blank"}
-- [Death by PowerPoint](){:target="_blank"}
-- [Interactive, Nonlinear Stories with Twine](){:target="_blank"}
-- [Interactive & Multimedia Website Content with H5P](){:target="_blank"}
-- [Knowledge Mobilization Skills](){:target="_blank"} (in development)
-- [Scientific Documents with Latex](){:target="_blank"}
-- [Personal Websites with WordPress](){:target="_blank"}
-- [Image Editing with GIMP](){:target="_blank"} (an open source Adobe Photoshop alternative)
-- [Image Editing with Adobe Photoshop](){:target="_blank"}
-- [Photography with your Smartphone](){:target="_blank"}
-- [Image Editing with Photopea](){:target="_blank"} (a free Adobe Photoshop alternative)
-- [Podcasting with Audacity](){:target="_blank"}
-- [Sketchnoting: Doodle Your Way to Better Grades](){:target="_blank"}
-- [Version Control with GitHub](){:target="_blank"}
-- [Video Editing with iMovie or Windows ClipChamp](){:target="_blank"} (Win, Mac)
+- [Design & Layout with Canva](https://lib.uvic.ca/dl){:target="_blank"} - Introduction
+- [Academic Posters with Canva](https://lib.uvic.ca/apc){:target="_blank"}
+- [Creating & Teaching Active Learning Workshops](https://lib.uvic.ca/alw){:target="_blank"}
+- [Data Management Planning](https://lib.uvic.ca/dmp){:target="_blank"}
+- [Death by PowerPoint](https://lib.uvic.ca/ppt-death){:target="_blank"} (how to make memorable & compelling presentations)
+- [Interactive, Nonlinear Stories with Twine](https://lib.uvic.ca/tw){:target="_blank"}
+- [Interactive & Multimedia Website Content with H5P](https://lib.uvic.ca/h5p){:target="_blank"}
+- [Knowledge Mobilization Skills](https://lib.uvic.ca/km-hands-on){:target="_blank"} (in development)
+- [Scientific Documents with Latex](https://lib.uvic.ca/lt){:target="_blank"}
+- [Personal Websites with WordPress](https://lib.uvic.ca/wp){:target="_blank"}
+- [Image Editing with GIMP](https://lib.uvic.ca/gimp){:target="_blank"} (an open source Adobe Photoshop alternative)
+- [Image Editing with Adobe Photoshop](https://uviclibraries.github.io/photoshop/){:target="_blank"}
+- [Photography with your Smartphone](https://lib.uvic.ca/spp){:target="_blank"}
+- [Image Editing with Photopea](https://uviclibraries.github.io/image-editing-photopea/){:target="_blank"} (a free Adobe Photoshop alternative)
+- [Podcasting with Audacity](https://lib.uvic.ca/pod){:target="_blank"}
+- [Sketchnoting: Doodle Your Way to Better Grades](https://lib.uvic.ca/skn){:target="_blank"}
+- [Version Control with GitHub](https://lib.uvic.ca/github){:target="_blank"}
+- [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
 
 ## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
 - [GenAI: Introduction & Prompt Design](){:target="_blank"} (Introduction)
