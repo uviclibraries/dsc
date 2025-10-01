@@ -61,11 +61,11 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
 
 ## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
-- [GenAI: Introduction & Prompt Design](){:target="_blank"} (Introduction)
-- [AI: Tools for Literature Reviews](){:target="_blank"} (Introduction)
+- [GenAI: Introduction & Prompt Design](https://lib.uvic.ca/gen-ai){:target="_blank"} (Introduction)
+- [AI: Tools for Literature Reviews](https://lib.uvic.ca/ai-lit-review-intro){:target="_blank"} (Introduction)
 - [GenAI: Spotting AI-generated content online (Introduction) COMING SOON
-- [Transcription with Free AI Tools](){:target="_blank"} (Intermediate)
-- [GenAI: NotebookLM a Personal Tool for Research & Productivity](){:target="_blank"} (Intermediate)
+- [Transcription with Free AI Tools](https://lib.uvic.ca/transcription){:target="_blank"} (Intermediate)
+- [GenAI: NotebookLM a Personal Tool for Research & Productivity](https://lib.uvic.ca/genai-notebooklm){:target="_blank"} (Intermediate)
 - [GenAI: Presentation & Multi-Media Tools (Intermediate) - COMING SOON
 - [AI: Tools for Literature Reviews (Advanced) - COMING SOON
-- [GenAI: Research Tools](){:target="_blank"} (Advanced)
+- [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (Advanced)
