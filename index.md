@@ -26,19 +26,19 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
 
 ## Data Analysis, Visualization, & Mapping
-- [Data Analysis with Excel](){:target="_blank"}
-- [Data Analysis with RStudio](){:target="_blank"} - Introduction
-- [Data Analysis with RStudio](){:target="_blank"} - Intermediate Research Statistics
-- [Data Visualization & Narrative Maps](){:target="_blank"} - Introduction
-- [Laser Cutting Ocean Floor Contour Maps](){:target="_blank"}
-- [Data Visualization with Tableau](){:target="_blank"} - Intermediate
-- [DataFrames in Pandas](){:target="_blank"} (Python)
-- [Infographics with Canva](){:target="_blank"}
-- [Data Wrangling or cleaning with OpenRefine](){:target="_blank"}
-- [Survey Creation with SurveyMonkey](){:target="_blank"}
-- [Qualitative Data Analysis & Coding with NVIVO](){:target="_blank"}
-- [Qualitative Data Analysis & Coding with NVIVO](){:target="_blank"} - Advanced
-- [Qualitative Coding with Taguette](){:target="_blank"}
+- [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
+- [Data Analysis with RStudio](https://lib.uvic.ca/rstud){:target="_blank"} - Introduction
+- [Data Analysis with RStudio](https://lib.uvic.ca/rintr){:target="_blank"} - Intermediate Research Statistics
+- [Data Visualization & Narrative Maps](https://lib.uvic.ca/dvis){:target="_blank"} - Introduction
+- [Laser Cutting Ocean Floor Contour Maps](https://lib.uvic.ca/laser-maps){:target="_blank"}
+- [Data Visualization with Tableau](https://lib.uvic.ca/tab){:target="_blank"} - Intermediate
+- [DataFrames in Pandas](https://uviclibraries.github.io/data-frames/){:target="_blank"} (Python)
+- [Infographics with Canva](https://lib.uvic.ca/ig){:target="_blank"}
+- [Data Wrangling or cleaning with OpenRefine](https://lib.uvic.ca/or){:target="_blank"}
+- [Survey Creation with SurveyMonkey](https://lib.uvic.ca/survey){:target="_blank"}
+- [Qualitative Data Analysis & Coding with NVIVO](https://lib.uvic.ca/nvivo){:target="_blank"}
+- [Qualitative Data Analysis & Coding with NVIVO](https://lib.uvic.ca/nvadv){:target="_blank"} - Advanced
+- [Qualitative Coding with Taguette](https://lib.uvic.ca/tag){:target="_blank"}
 
 ## Research, Writing, & Communication Tools:
 - [Design & Layout with Canva](){:target="_blank"} - Introduction
