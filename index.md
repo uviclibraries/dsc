@@ -42,40 +42,37 @@ Below are workshops that the DSC has made available for anyone in the world to u
 
 ## Research, Writing, & Communication Tools:
 - Design & Layout with Canva - Introduction
-
-Academic Posters with Canva
-
-Creating & Teaching Active Learning Workshops
-
-Data Management Planning 
-
-Death by PowerPoint
-
-Interactive, Nonlinear Stories with Twine
-
-Interactive & Multimedia Website Content with H5P
-
-Knowledge Mobilization Skills (in development)
-
-Scientific Documents with Latex
-
-Personal Websites with WordPress
-
-Image Editing with GIMP (an open source Adobe Photoshop alternative)
-
-Image Editing with Adobe Photoshop
-
-Photography with your Smartphone
-
-Image Editing with Photopea (a free Adobe Photoshop alternative)
-
-Podcasting with Audacity
-
-Sketchnoting: Doodle Your Way to Better Grades
-
-Version Control with GitHub
-
-Video Editing with iMovie or Windows ClipChamp (Win, Mac)
+- Academic Posters with Canva
+- Creating & Teaching Active Learning Workshops
+- Data Management Planning 
+- Death by PowerPoint
+- Interactive, Nonlinear Stories with Twine
+- Interactive & Multimedia Website Content with H5P
+- Knowledge Mobilization Skills (in development)
+- Scientific Documents with Latex
+- Personal Websites with WordPress
+- Image Editing with GIMP (an open source Adobe Photoshop alternative)
+- Image Editing with Adobe Photoshop
+- Photography with your Smartphone
+- Image Editing with Photopea (a free Adobe Photoshop alternative)
+- Podcasting with Audacity
+- Sketchnoting: Doodle Your Way to Better Grades
+- Version Control with GitHub
+- Video Editing with iMovie or Windows ClipChamp (Win, Mac)
 
 ## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
-- 
+- GenAI: Introduction & Prompt Design (Introduction)
+
+AI: Tools for Literature Reviews (Introduction)
+
+GenAI: Spotting AI-generated content online (Introduction) COMING SOON
+
+Transcription with Free AI Tools (Intermediate)
+
+GenAI: NotebookLM a Personal Tool for Research & Productivity (Intermediate)
+
+GenAI: Presentation & Multi-Media Tools (Intermediate) - SUMMER 2025
+
+AI: Tools for Literature Reviews (Advanced) - SUMMER 2025
+
+GenAI: Research Tools (Advanced)
