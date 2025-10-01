@@ -62,17 +62,10 @@ Below are workshops that the DSC has made available for anyone in the world to u
 
 ## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
 - GenAI: Introduction & Prompt Design (Introduction)
-
-AI: Tools for Literature Reviews (Introduction)
-
-GenAI: Spotting AI-generated content online (Introduction) COMING SOON
-
-Transcription with Free AI Tools (Intermediate)
-
-GenAI: NotebookLM a Personal Tool for Research & Productivity (Intermediate)
-
-GenAI: Presentation & Multi-Media Tools (Intermediate) - SUMMER 2025
-
-AI: Tools for Literature Reviews (Advanced) - SUMMER 2025
-
-GenAI: Research Tools (Advanced)
+- AI: Tools for Literature Reviews (Introduction)
+- GenAI: Spotting AI-generated content online (Introduction) COMING SOON
+- Transcription with Free AI Tools (Intermediate)
+- GenAI: NotebookLM a Personal Tool for Research & Productivity (Intermediate)
+- GenAI: Presentation & Multi-Media Tools (Intermediate) - COMING SOON
+- AI: Tools for Literature Reviews (Advanced) - COMING SOON
+- GenAI: Research Tools (Advanced)
