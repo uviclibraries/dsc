@@ -26,46 +26,46 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
 
 ## Data Analysis, Visualization, & Mapping
-- Data Analysis with Excel
-- Data Analysis with RStudio - Introduction
-- Data Analysis with RStudio - Intermediate Research Statistics
-- Data Visualization & Narrative Maps - Introduction
-- Laser Cutting Ocean Floor Contour Maps
-- Data Visualization with Tableau - Intermediate
-- DataFrames in Pandas (Python)
-- Infographics with Canva
-- Data Wrangling (or cleaning) with OpenRefine
-- Survey Creation with SurveyMonkey
-- Qualitative Data Analysis & Coding with NVIVO
-- Qualitative Data Analysis & Coding with NVIVO - Advanced
-- Qualitative Coding with Taguette
+- [Data Analysis with Excel](){:target="_blank"}
+- [Data Analysis with RStudio](){:target="_blank"} - Introduction
+- [Data Analysis with RStudio](){:target="_blank"} - Intermediate Research Statistics
+- [Data Visualization & Narrative Maps](){:target="_blank"} - Introduction
+- [Laser Cutting Ocean Floor Contour Maps](){:target="_blank"}
+- [Data Visualization with Tableau](){:target="_blank"} - Intermediate
+- [DataFrames in Pandas](){:target="_blank"} (Python)
+- [Infographics with Canva](){:target="_blank"}
+- [Data Wrangling or cleaning with OpenRefine](){:target="_blank"}
+- [Survey Creation with SurveyMonkey](){:target="_blank"}
+- [Qualitative Data Analysis & Coding with NVIVO](){:target="_blank"}
+- [Qualitative Data Analysis & Coding with NVIVO](){:target="_blank"} - Advanced
+- [Qualitative Coding with Taguette](){:target="_blank"}
 
 ## Research, Writing, & Communication Tools:
-- Design & Layout with Canva - Introduction
-- Academic Posters with Canva
-- Creating & Teaching Active Learning Workshops
-- Data Management Planning 
-- Death by PowerPoint
-- Interactive, Nonlinear Stories with Twine
-- Interactive & Multimedia Website Content with H5P
-- Knowledge Mobilization Skills (in development)
-- Scientific Documents with Latex
-- Personal Websites with WordPress
-- Image Editing with GIMP (an open source Adobe Photoshop alternative)
-- Image Editing with Adobe Photoshop
-- Photography with your Smartphone
-- Image Editing with Photopea (a free Adobe Photoshop alternative)
-- Podcasting with Audacity
-- Sketchnoting: Doodle Your Way to Better Grades
-- Version Control with GitHub
-- Video Editing with iMovie or Windows ClipChamp (Win, Mac)
+- [Design & Layout with Canva](){:target="_blank"} - Introduction
+- [Academic Posters with Canva](){:target="_blank"}
+- [Creating & Teaching Active Learning Workshops](){:target="_blank"}
+- [Data Management Planning ](){:target="_blank"}
+- [Death by PowerPoint](){:target="_blank"}
+- [Interactive, Nonlinear Stories with Twine](){:target="_blank"}
+- [Interactive & Multimedia Website Content with H5P](){:target="_blank"}
+- [Knowledge Mobilization Skills](){:target="_blank"} (in development)
+- [Scientific Documents with Latex](){:target="_blank"}
+- [Personal Websites with WordPress](){:target="_blank"}
+- [Image Editing with GIMP](){:target="_blank"} (an open source Adobe Photoshop alternative)
+- [Image Editing with Adobe Photoshop](){:target="_blank"}
+- [Photography with your Smartphone](){:target="_blank"}
+- [Image Editing with Photopea](){:target="_blank"} (a free Adobe Photoshop alternative)
+- [Podcasting with Audacity](){:target="_blank"}
+- [Sketchnoting: Doodle Your Way to Better Grades](){:target="_blank"}
+- [Version Control with GitHub](){:target="_blank"}
+- [Video Editing with iMovie or Windows ClipChamp](){:target="_blank"} (Win, Mac)
 
 ## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
-- GenAI: Introduction & Prompt Design (Introduction)
-- AI: Tools for Literature Reviews (Introduction)
-- GenAI: Spotting AI-generated content online (Introduction) COMING SOON
-- Transcription with Free AI Tools (Intermediate)
-- GenAI: NotebookLM a Personal Tool for Research & Productivity (Intermediate)
-- GenAI: Presentation & Multi-Media Tools (Intermediate) - COMING SOON
-- AI: Tools for Literature Reviews (Advanced) - COMING SOON
-- GenAI: Research Tools (Advanced)
+- [GenAI: Introduction & Prompt Design](){:target="_blank"} (Introduction)
+- [AI: Tools for Literature Reviews](){:target="_blank"} (Introduction)
+- [GenAI: Spotting AI-generated content online (Introduction) COMING SOON
+- [Transcription with Free AI Tools](){:target="_blank"} (Intermediate)
+- [GenAI: NotebookLM a Personal Tool for Research & Productivity](){:target="_blank"} (Intermediate)
+- [GenAI: Presentation & Multi-Media Tools (Intermediate) - COMING SOON
+- [AI: Tools for Literature Reviews (Advanced) - COMING SOON
+- [GenAI: Research Tools](){:target="_blank"} (Advanced)
