@@ -3,14 +3,10 @@ layout: default
 title: Introduction 
 nav_order: 1
 ---
-**UPDATE PHOTO**
+
 <img src="images/WORKSHOP-LOGO-HERE.png" style="float:right;width:180px;" alt="image description">
 
-# WORKSHOP TITLE HERE (Use Regular Case Like this)
-
-- Pre-workshop activities: 00 min 
-- Introductory presentation: 00 min
-- Hands-on activities: 00-00 min
+# DSC Workshop Lesson Plans & Curriculum
 
 ## Why TOOL NAME HERE? 
 
@@ -33,4 +29,4 @@ At the end of this workshop, you will be able to:
 1. Identify the differences between manual coding and coding with qualitative coding software
 2. **MORE OBJECTIVES**
  
-[NEXT STEP: Pre-Workshop Activities](pre-workshop.html){: .btn .btn-blue }
+
