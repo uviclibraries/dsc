@@ -25,6 +25,54 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Design for Laser Cutting](https://lib.uvic.ca/lasdes){:target="_blank"}
 - [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
 
- ## Data Analysis, Visualization, & Mapping
- - 
+## Data Analysis, Visualization, & Mapping
+- Data Analysis with Excel
+- Data Analysis with RStudio - Introduction
+- Data Analysis with RStudio - Intermediate Research Statistics
+- Data Visualization & Narrative Maps - Introduction
+- Laser Cutting Ocean Floor Contour Maps
+- Data Visualization with Tableau - Intermediate
+- DataFrames in Pandas (Python)
+- Infographics with Canva
+- Data Wrangling (or cleaning) with OpenRefine
+- Survey Creation with SurveyMonkey
+- Qualitative Data Analysis & Coding with NVIVO
+- Qualitative Data Analysis & Coding with NVIVO - Advanced
+- Qualitative Coding with Taguette
 
+## Research, Writing, & Communication Tools:
+- Design & Layout with Canva - Introduction
+
+Academic Posters with Canva
+
+Creating & Teaching Active Learning Workshops
+
+Data Management Planning 
+
+Death by PowerPoint
+
+Interactive, Nonlinear Stories with Twine
+
+Interactive & Multimedia Website Content with H5P
+
+Knowledge Mobilization Skills (in development)
+
+Scientific Documents with Latex
+
+Personal Websites with WordPress
+
+Image Editing with GIMP (an open source Adobe Photoshop alternative)
+
+Image Editing with Adobe Photoshop
+
+Photography with your Smartphone
+
+Image Editing with Photopea (a free Adobe Photoshop alternative)
+
+Podcasting with Audacity
+
+Sketchnoting: Doodle Your Way to Better Grades
+
+Version Control with GitHub
+
+Video Editing with iMovie or Windows ClipChamp (Win, Mac)
