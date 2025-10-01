@@ -6,7 +6,7 @@ nav_order: 1
 
 <img src="images/dsc-logo.png" style="float:right;width:180px;" alt="DSC Logo">
 
-# DSC Workshop Lesson Plans & Curriculum
+# DSC Workshop Lesson Plans
 
 For a full list of our upcoming scheduled workshops, [visit our list here](https://www.uvic.ca/library/research-learning/workshops/index.php#ipn-all-workshops){:target="_blank"}.
 
