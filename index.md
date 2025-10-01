@@ -15,15 +15,16 @@ If you have any questions about our workshops or are an instructor wanting to ha
 Below are workshops that the DSC has made available for anyone in the world to use free of charge! Everything is online and designed so that people can work through them on their own schedule and at their own pace. If you have questions as you go, feel free to contact us.
 
 ## Makerspace Tools
-- 3D Design & Print - Introduction
-- 3D Design with Fusion 360 - Intermediate
-- 3D Scanning with Qlone (no longer current)
-- Coding with HTML & CSS - Introduction
-- Electronics with Arduino
-- Electronics with Raspberry Pi (in development)
-- Internet of Things with Arduino
-- Design for Laser Cutting
-- Creating 360 Tours & Narritive Maps
+- [3D Design & Print](https://lib.uvic.ca/3d){:target="_blank"} - Introduction
+- [3D Design with Fusion 360](https://lib.uvic.ca/fusion360){:target="_blank"} - Intermediate
+- [3D Scanning with Qlone](https://lib.uvic.ca/qlone){:target="_blank"} (no longer current)
+- [Coding with HTML & CSS](https://lib.uvic.ca/html){:target="_blank"} - Introduction
+- [Electronics with Arduino](https://lib.uvic.ca/ard){:target="_blank"}
+- [Electronics with Raspberry Pi](https://lib.uvic.ca/raspi){:target="_blank"} (in development)
+- [Internet of Things with Arduino](https://lib.uvic.ca/iot){:target="_blank"}
+- [Design for Laser Cutting](https://lib.uvic.ca/lasdes){:target="_blank"}
+- [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
 
- 
+ ## Data Analysis, Visualization, & Mapping
+ - 
 
