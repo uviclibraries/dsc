@@ -4,19 +4,17 @@ title: Introduction
 nav_order: 1
 ---
 
-<img src="images/WORKSHOP-LOGO-HERE.png" style="float:right;width:180px;" alt="image description">
+<img src="images/dsc-logo.png" style="float:right;width:180px;" alt="DSC Logo">
 
 # DSC Workshop Lesson Plans & Curriculum
 
-## Why TOOL NAME HERE? 
+For a full list of our upcoming scheduled workshops, [visit our list here](https://www.uvic.ca/library/research-learning/workshops/index.php#ipn-all-workshops){:target="_blank"}.
 
-[TOOL NAME](https://TOOL-URL-HERE.org/){:target="_blank"} Desribe the tool and how it can be used. This is an example of the description for Taguette:
+If you have any questions about our workshops or are an instructor wanting to have us run one of our workshops in connection with your course, feel free to [send us an email](mailto:rmccue@uvic.ca?Subject=Workshop%20Request){:target="_blank"} to ask about availability. If you would like to be kept up to date with DSC announcements, including new workshops, you can sign up for our [low-volume email list here](https://e1.envoke.com/ext/pages/7ca0996db17fcc4be7f60392f6790490){:target="_blank"}.
 
-[Taguette](https://taguette.org/) a user-friendly and free web-based tool that helps researchers to code and analyse their qualitative data. Taguette is a great tool for those who need to analyze interviews, reports, transcripts of any kinds, and a variety of text. With the tool, we can create codes and analyse texts easily and export in different file formats. If you have some or a lot of text to analyse, Taguette might be a great option for you.
+## Lesson Plans
 
-This workshop uses the OpenSource _Taguette_ software because it is free to use and many find it easier to learn than [other popular commercial software packages](https://en.wikipedia.org/wiki/Computer-assisted_qualitative_data_analysis_software){:target="_blank"}. 
-
-This workshop is not an endorsement of Taguette; there are many options for qualitative analysis and coding and other software may be better in other contexts. While an excellent teaching tool, _Taguette_ imposes some limitations that users should be aware of:
+Below are workshops that the DSC has made available for anyone in the world to use free of charge! Everything is online and designed so that people can work through them on their own schedule and at their own pace. If you have questions as you go, feel free to contact us.
 
 - Only text can be coded. For example videos and images can not be coded.
 - Passanges coded with different tags have the same colour in Taguette. 
