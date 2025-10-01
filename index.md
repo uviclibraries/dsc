@@ -76,3 +76,6 @@ Sketchnoting: Doodle Your Way to Better Grades
 Version Control with GitHub
 
 Video Editing with iMovie or Windows ClipChamp (Win, Mac)
+
+## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
+- 
