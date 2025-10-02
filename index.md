@@ -45,7 +45,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Academic Posters with Canva](https://lib.uvic.ca/apc){:target="_blank"}
 - [Creating & Teaching Active Learning Workshops](https://lib.uvic.ca/alw){:target="_blank"}
 - [Data Management Planning](https://lib.uvic.ca/dmp){:target="_blank"}
-- [Death by PowerPoint](https://lib.uvic.ca/ppt-death){:target="_blank"} (how to make memorable & compelling presentations)
+- [Death by PowerPoint](https://lib.uvic.ca/ppt-death){:target="_blank"} (Creating Pursuasive & Engaging Presentations)
 - [Interactive, Nonlinear Stories with Twine](https://lib.uvic.ca/tw){:target="_blank"}
 - [Interactive & Multimedia Website Content with H5P](https://lib.uvic.ca/h5p){:target="_blank"}
 - [Knowledge Mobilization Skills](https://lib.uvic.ca/km-hands-on){:target="_blank"} (in development)
