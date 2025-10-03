@@ -4,7 +4,7 @@ title: DSC Workshop Lesson Plans
 nav_order: 1
 ---
 
-<img src="images/dsc-logo.png" style="float:right;width:250px;" alt="DSC Logo">
+<img src="images/dsc-logo.png" style="float:right;width:180px;" alt="DSC Logo">
 
 # DSC Workshop Lesson Plans
 
@@ -74,3 +74,5 @@ Below are workshops that the DSC has made available for anyone in the world to u
 1. [Test one](https://richmccue.com){:target="_blank"}
 3. [Test three](https://library.uvic.ca)
 5. Test five
+
+<img src="images/ziti.jpg" alt="Dog">
