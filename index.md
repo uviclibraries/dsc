@@ -71,8 +71,9 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (Advanced)
 
 ## Dae Test
+<img src="images/ziti.jpg" style="float:right;width:400px;" alt="Dog">
 1. [Test one](https://richmccue.com){:target="_blank"}
 3. [Test three](https://library.uvic.ca)
 5. Test five
 
-<img src="images/ziti.jpg" style="width:400px;" alt="Dog">
+
