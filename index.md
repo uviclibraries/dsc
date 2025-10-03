@@ -70,10 +70,4 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - AI: Tools for Literature Reviews (Advanced) - COMING SOON
 - [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (Advanced)
 
-<img src="images/ziti.jpg" style="float:right;width:400px;" alt="Dog">
-## Dae Test
-1. [Test one](https://richmccue.com){:target="_blank"}
-3. [Test three](https://library.uvic.ca)
-5. Test five
-
 
