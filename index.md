@@ -4,7 +4,7 @@ title: DSC Workshop Lesson Plans
 nav_order: 1
 ---
 
-<img src="images/dsc-logo.png" style="float:right;width:180px;" alt="DSC Logo">
+<img src="images/dsc-logo.png" style="float:right;width:250px;" alt="DSC Logo">
 
 # DSC Workshop Lesson Plans
 
