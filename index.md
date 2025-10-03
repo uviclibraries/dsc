@@ -69,3 +69,8 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - GenAI: Presentation & Multi-Media Tools (Intermediate) - COMING SOON
 - AI: Tools for Literature Reviews (Advanced) - COMING SOON
 - [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (Advanced)
+
+## Dae Test
+1. [Test one](https://richmccue.com){:target="_blank"}
+3. [Test three](https://library.uvic.ca)
+5. Test five
