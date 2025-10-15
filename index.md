@@ -17,7 +17,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 ## Makerspace Tools
 - [3D Design & Print](https://lib.uvic.ca/3d){:target="_blank"} - Introduction
 - [3D Design with Fusion 360](https://lib.uvic.ca/fusion360){:target="_blank"} - Intermediate
-- [3D Scanning with Qlone](https://lib.uvic.ca/qlone){:target="_blank"} (no longer current)
+- [3D Scanning with Your Phone & KIRI Engine](https://lib.uvic.ca/kiri){:target="_blank"}
 - [Coding with HTML & CSS](https://lib.uvic.ca/html){:target="_blank"} - Introduction
 - [Electronics with Arduino](https://lib.uvic.ca/ard){:target="_blank"}
 - [Electronics with Raspberry Pi](https://lib.uvic.ca/raspi){:target="_blank"} (in development)
