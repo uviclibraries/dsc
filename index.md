@@ -24,6 +24,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Internet of Things with Arduino](https://lib.uvic.ca/iot){:target="_blank"}
 - [Design for Laser Cutting](https://lib.uvic.ca/lasdes){:target="_blank"}
 - [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
+- [Impressions without Carving 2: East Asian Seal Art and Modern Technology](https://lib.uvic.ca/seals){:target="_blank"}
 
 ## Data Analysis, Visualization, & Mapping
 - [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
