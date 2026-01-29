@@ -51,6 +51,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Interactive, Nonlinear Stories with Twine](https://lib.uvic.ca/tw){:target="_blank"}
 - [Interactive & Multimedia Website Content with H5P](https://lib.uvic.ca/h5p){:target="_blank"}
 - Knowledge Mobilization Skills (in development)
+- [Modelling in Blender](https://lib.uvic.ca/blender){:target="_blank"}
 - [Scientific Documents with Latex](https://lib.uvic.ca/lt){:target="_blank"}
 - [Personal Websites with WordPress](https://lib.uvic.ca/wp){:target="_blank"}
 - [Image Editing with GIMP](https://lib.uvic.ca/gimp){:target="_blank"} (an open source Adobe Photoshop alternative)
