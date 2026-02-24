@@ -29,8 +29,9 @@ Below are workshops that the DSC has made available for anyone in the world to u
 
 ## Data Analysis, Visualization, & Mapping
 - [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
-- [Data Analysis with RStudio](https://lib.uvic.ca/rstud){:target="_blank"} - Introduction
-- [Data Analysis with RStudio](https://lib.uvic.ca/rintr){:target="_blank"} - Intermediate Research Statistics
+- [Summary Statistics & Intro Data Analysis with RStudio](https://lib.uvic.ca/rstud){:target="_blank"} - Introduction
+- [Data Manipulation & Visualization with RStudio](https://lib.uvic.ca/rvis){:target="_blank"} - Introduction 
+- [Data analysis with RStudio](https://lib.uvic.ca/rintr){:target="_blank"} - Intermediate Research Statistics
 - [Data Visualization & Narrative Maps](https://lib.uvic.ca/dvis){:target="_blank"} - Introduction
 - [Laser Cutting Ocean Floor Contour Maps](https://lib.uvic.ca/laser-maps){:target="_blank"}
 - [Data Visualization with Tableau](https://lib.uvic.ca/tab){:target="_blank"} - Intermediate
