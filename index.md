@@ -33,6 +33,10 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [RStudio Data Manipulation & Visualization](https://lib.uvic.ca/rvis){:target="_blank"} - Introduction 
 - [RStudio Data analysis Intermediate](https://lib.uvic.ca/rintr){:target="_blank"} - Intermediate
 - [Data Visualization & Narrative Maps](https://lib.uvic.ca/dvis){:target="_blank"} - Introduction
+- [Custom Map with QGIS Print Layout](https://uviclibraries.github.io/qgis-printlayout){:target="_blank"} 
+- [Edit Vector Data with QGIS](https://uviclibraries.github.io/qgis-editvector){:target="_blank"}
+- [Intro to Raster with QGIS](https://uviclibraries.github.io/qgis-raster){:target="_blank"}
+- [Intro to Vector with QGIS](https://uviclibraries.github.io/qgis-map){:target="_blank"}
 - [Laser Cutting Ocean Floor Contour Maps](https://lib.uvic.ca/laser-maps){:target="_blank"}
 - [Data Visualization with Tableau](https://lib.uvic.ca/tab){:target="_blank"} - Intermediate
 - [DataFrames in Pandas](https://uviclibraries.github.io/data-frames/){:target="_blank"} (Python)
