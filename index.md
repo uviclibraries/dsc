@@ -68,6 +68,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Sketchnoting: Doodle Your Way to Better Grades](https://lib.uvic.ca/skn){:target="_blank"}
 - [Version Control with GitHub](https://lib.uvic.ca/github){:target="_blank"}
 - [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
+- [Zine Making](https://lib.uvic.ca/zines){:target="_blank"}
 
 ## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
 - [GenAI: Introduction & Prompt Design](https://lib.uvic.ca/gen-ai){:target="_blank"} (Introduction)
