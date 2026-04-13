@@ -46,6 +46,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Qualitative Data Analysis & Coding with NVIVO](https://lib.uvic.ca/nvivo){:target="_blank"}
 - [Qualitative Data Analysis & Coding with NVIVO](https://lib.uvic.ca/nvadv){:target="_blank"} - Advanced
 - [Qualitative Coding with Taguette](https://lib.uvic.ca/tag){:target="_blank"}
+- [Tidy Data](https://lib.uvic.ca/tidy){:target="_blank"}
 
 ## Research, Writing, & Communication Tools:
 - [Design & Layout with Canva](https://lib.uvic.ca/dl){:target="_blank"} - Introduction
