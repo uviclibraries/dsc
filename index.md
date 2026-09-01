@@ -75,6 +75,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [AI: Tools for Literature Reviews](https://lib.uvic.ca/ai-lit-search){:target="_blank"} (Introduction)
 - Is Your Smart Phone Listening to You? How to stop Big Tech from Tracking You Online (Introduction) - COMING SUMMER 2026
 - [Transcription with Free AI Tools](https://lib.uvic.ca/transcription){:target="_blank"} (Intermediate)
+- [Audio Recording for Language Revitalization Games](https://lib.uvic.ca/audio-rev){:target="_blank"} (Intermediate)
 - [GenAI: NotebookLM a Personal Tool for Research & Productivity](https://lib.uvic.ca/genai-notebooklm){:target="_blank"} (Intermediate)
 - [From Ideas to Apps: Create Apps & Learning Games with Generative AI](https://lib.uvic.ca/vibe-code-intro){:target="_blank"} (Intermediate)
 - [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (Advanced)
