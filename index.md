@@ -65,7 +65,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Photography with your Smartphone](https://lib.uvic.ca/spp){:target="_blank"}
 - [Image Editing with Photopea](https://uviclibraries.github.io/image-editing-photopea/){:target="_blank"} (a free Adobe Photoshop alternative)
 - [Podcasting with Audacity](https://lib.uvic.ca/pod){:target="_blank"}
-- [Audio Recording for Language Revitalization Games](https://lib.uvic.ca/audio-rev){:target="_blank"} (Intermediate)
+- [Audio Recording for Language Revitalization Games](https://lib.uvic.ca/audio-rev){:target="_blank"}
 - [Sketchnoting: Doodle Your Way to Better Grades](https://lib.uvic.ca/skn){:target="_blank"}
 - [Version Control with GitHub](https://lib.uvic.ca/github){:target="_blank"}
 - [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
