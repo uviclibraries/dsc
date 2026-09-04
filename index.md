@@ -72,13 +72,13 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Zine Making](https://lib.uvic.ca/zines){:target="_blank"}
 
 ## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
-- [GenAI: Introduction & Prompt Design](https://lib.uvic.ca/gen-ai){:target="_blank"} (Introduction)
-- [AI: Tools for Literature Reviews](https://lib.uvic.ca/ai-lit-search){:target="_blank"} (Introduction)
-- Is Your Smart Phone Listening to You? How to stop Big Tech from Tracking You Online (Introduction) - COMING FALL 2026
-- [Transcription with Free AI Tools](https://lib.uvic.ca/transcription){:target="_blank"} (Intermediate)
-- [GenAI: NotebookLM a Personal Tool for Research & Productivity](https://lib.uvic.ca/genai-notebooklm){:target="_blank"} (Intermediate)
-- [From Ideas to Apps: Create Apps & Learning Games with Generative AI](https://lib.uvic.ca/vibe-code-intro){:target="_blank"} (Intermediate)
-- [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (Advanced)
-- GenAI: Vibe Coding Local Applications for Research (Intermediate) - COMING FALL 2026
+- [GenAI: Introduction & Prompt Design](https://lib.uvic.ca/gen-ai){:target="_blank"} (_Introduction_)
+- [AI: Tools for Literature Reviews](https://lib.uvic.ca/ai-lit-search){:target="_blank"} (_Introduction_)
+- Is Your Smart Phone Listening to You? How to stop Big Tech from Tracking You Online (_Introduction_) - COMING FALL 2026
+- [Transcription with Free AI Tools](https://lib.uvic.ca/transcription){:target="_blank"} (_Intermediate_)
+- [GenAI: NotebookLM a Personal Tool for Research & Productivity](https://lib.uvic.ca/genai-notebooklm){:target="_blank"} (_Intermediate_)
+- [From Ideas to Apps: Create Apps & Learning Games with Generative AI](https://lib.uvic.ca/vibe-code-intro){:target="_blank"} (_Intermediate_)
+- [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (_Advanced_)
+- GenAI: Vibe Coding Local Applications for Research (_Advanced_) - COMING FALL 2026
 
 
