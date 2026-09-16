@@ -24,6 +24,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Electronics with Raspberry Pi](https://lib.uvic.ca/raspi){:target="_blank"} (in development)
 - [Internet of Things with Arduino](https://lib.uvic.ca/iot){:target="_blank"}
 - [Design for Laser Cutting](https://lib.uvic.ca/lasdes){:target="_blank"}
+- [Digital Design for Laser Cutting Woodblock Prints](https://lib.uvic.ca/woodblock){:target="_blank"}
 - [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
 - [Lasting Impressions: East Asian Seal Art Across Time and Media 2](https://lib.uvic.ca/seals){:target="_blank"}
 
