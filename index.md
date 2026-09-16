@@ -46,6 +46,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Survey Creation with SurveyMonkey](https://lib.uvic.ca/survey){:target="_blank"}
 - [Qualitative Data Analysis & Coding with NVIVO](https://lib.uvic.ca/nvivo){:target="_blank"}
 - [Qualitative Data Analysis & Coding with NVIVO](https://lib.uvic.ca/nvadv){:target="_blank"} - Advanced
+- [Qualitative Data Analysis & Coding with QualCoder](https://github.com/uviclibraries/qualcoder){:target="_blank"}
 - [Qualitative Coding with Taguette](https://lib.uvic.ca/tag){:target="_blank"}
 - [Tidy Data](https://lib.uvic.ca/tidy){:target="_blank"}
 
