@@ -76,11 +76,11 @@ Below are workshops that the DSC has made available for anyone in the world to u
 ## [Generative AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
 - [GenAI: Introduction & Prompt Design](https://lib.uvic.ca/gen-ai){:target="_blank"} (_Introduction_)
 - [AI: Tools for Literature Reviews](https://lib.uvic.ca/ai-lit-search){:target="_blank"} (_Introduction_)
-- Is Your Smart Phone Listening to You? How to stop Big Tech from Tracking You Online (_Introduction_) - COMING FALL 2026
+- [Is Your Smart Phone Listening to You? How to stop Big Tech from Tracking You Online](https://lib.uvic.ca/priv-sec){:target="_blank"} (_Introduction_)
 - [Transcription with Free AI Tools](https://lib.uvic.ca/transcription){:target="_blank"} (_Intermediate_)
 - [GenAI: NotebookLM a Personal Tool for Research & Productivity](https://lib.uvic.ca/genai-notebooklm){:target="_blank"} (_Intermediate_)
 - [From Ideas to Apps: Create Apps & Learning Games with Generative AI](https://lib.uvic.ca/vibe-code-intro){:target="_blank"} (_Intermediate_)
 - [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (_Advanced_)
-- Create Local Apps for Research Using GenAI Vibe Coding Techniques (_Advanced_) - COMING FALL 2026
+- Create Local Apps for Research Using GenAI Vibe Coding Techniques (_Advanced_) - COMING FALL 2026 or SPRING 2027
 
 
