@@ -81,6 +81,6 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [GenAI: NotebookLM a Personal Tool for Research & Productivity](https://lib.uvic.ca/genai-notebooklm){:target="_blank"} (_Intermediate_)
 - [From Ideas to Apps: Create Apps & Learning Games with Generative AI](https://lib.uvic.ca/vibe-code-intro){:target="_blank"} (_Intermediate_)
 - [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (_Advanced_)
-- GenAI: Vibe Coding Local Applications for Research (_Advanced_) - COMING FALL 2026
+- Create Local Apps for Research Using GenAI Vibe Coding Techniques (_Advanced_) - COMING FALL 2026
 
 
