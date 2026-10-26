@@ -69,7 +69,6 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Podcasting with Audacity](https://lib.uvic.ca/pod){:target="_blank"}
 - [Audio Recording for Language Revitalization Games](https://lib.uvic.ca/audio-rev){:target="_blank"}
 - [Sketchnoting: Doodle Your Way to Better Grades](https://lib.uvic.ca/skn){:target="_blank"}
-- [Version Control with GitHub](https://lib.uvic.ca/github){:target="_blank"}
 - [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
 - [Zine Making](https://lib.uvic.ca/zines){:target="_blank"}
 
