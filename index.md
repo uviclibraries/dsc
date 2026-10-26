@@ -28,7 +28,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
 - [Lasting Impressions: East Asian Seal Art Across Time and Media 2](https://lib.uvic.ca/seals){:target="_blank"}
 
-## Data Analysis, Visualization, & Mapping
+## Data Analysis, Visualization, Mapping & GIS
 - [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
 - [RStudio Summary Statistics Introduction](https://lib.uvic.ca/rstud){:target="_blank"} - Introduction
 - [RStudio Data Manipulation & Visualization](https://lib.uvic.ca/rvis){:target="_blank"} - Introduction 
