@@ -30,9 +30,9 @@ Below are workshops that the DSC has made available for anyone in the world to u
 
 ## Data Analysis, Visualization, Mapping & GIS
 - [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
-- [RStudio Summary Statistics Introduction](https://lib.uvic.ca/rstud){:target="_blank"} - Introduction
-- [RStudio Data Manipulation & Visualization](https://lib.uvic.ca/rvis){:target="_blank"} - Introduction 
-- [RStudio Data analysis Intermediate](https://lib.uvic.ca/rintr){:target="_blank"} - Intermediate
+- [RStudio Summary Statistics Introduction](https://lib.uvic.ca/rstud){:target="_blank"} 
+- [RStudio Data Manipulation & Visualization Introduction](https://lib.uvic.ca/rvis){:target="_blank"} 
+- [RStudio Data Analysis Intermediate](https://lib.uvic.ca/rintr){:target="_blank"}
 - [Data Visualization & Narrative Maps](https://lib.uvic.ca/dvis){:target="_blank"} - Introduction
 - [Intro to QGIS Map Print Layout](https://uviclibraries.github.io/qgis-printlayout){:target="_blank"} 
 - [Edit Vector Data with QGIS](https://uviclibraries.github.io/qgis-editvector){:target="_blank"}
