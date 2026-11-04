@@ -14,6 +14,269 @@ Below are self-drected workshops that the DSC has made available for anyone in t
 
 ---
 
+<!-- DSC Workshop Real-time Filter -->
+<div id="dsc-workshop-filter-widget" class="dsc-filter-container">
+  <label for="dsc-workshop-search-input" class="dsc-filter-label">
+    Filter workshops on this page by keyword, tool, or skill level:
+  </label>
+  <div class="dsc-search-input-group">
+    <input 
+      type="search" 
+      id="dsc-workshop-search-input" 
+      class="dsc-search-input" 
+      placeholder="e.g., spreadsheet, Python, intermediate, Canva, GIS..." 
+      autocomplete="off" 
+      spellcheck="false"
+    />
+    <button type="button" id="dsc-clear-button" class="dsc-clear-btn" aria-label="Clear filter search">
+      Clear
+    </button>
+  </div>
+  <div id="dsc-search-status" class="dsc-search-status" aria-live="polite"></div>
+</div>
+
+<style>
+  .dsc-filter-container {
+    margin: 1.5rem 0 1.25rem 0;
+    padding: 1.1rem 1.25rem;
+    background-color: #f8f9fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+  }
+  .dsc-filter-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #24292e;
+  }
+  .dsc-search-input-group {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .dsc-search-input {
+    flex: 1;
+    padding: 0.55rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #c8ccd0;
+    border-radius: 4px;
+    outline: none;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+  .dsc-search-input:focus {
+    border-color: #0366d6;
+    box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.2);
+  }
+  .dsc-clear-btn {
+    padding: 0.55rem 0.9rem;
+    font-size: 0.9rem;
+    border: 1px solid #d1d5da;
+    border-radius: 4px;
+    background: #ffffff;
+    cursor: pointer;
+    color: #444d56;
+    white-space: nowrap;
+  }
+  .dsc-clear-btn:hover {
+    background-color: #f3f4f6;
+    color: #24292e;
+  }
+  .dsc-search-status {
+    margin-top: 0.6rem;
+    font-size: 0.88rem;
+    color: #586069;
+    min-height: 1.2rem;
+  }
+  .dsc-reset-link {
+    color: #0366d6;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .dsc-item-hidden {
+    display: none !important;
+  }
+</style>
+
+<script>
+(() => {
+  // Built-in keyword mapping for common synonyms without altering visible markdown
+  const SYNONYMS = {
+    'xls': 'spreadsheet data sheets excel',
+    'rstud': 'statistics stats r rstudio data',
+    'rvis': 'charts graphics visualization r rstudio ggplot',
+    'rintr': 'advanced stats programming r rstudio',
+    'nvivo': 'qualitative coding text analysis',
+    'nvadv': 'qualitative coding advanced',
+    'qualcoder': 'qualitative coding python open source',
+    'tag': 'qualitative coding text analysis open source',
+    'qgis': 'gis maps spatial geographic spatial-data raster vector',
+    'html': 'web coding web-design development frontend',
+    'photopea': 'photoshop image-editing raster graphics',
+    'gimp': 'photoshop image-editing raster graphics open source',
+    'fusion360': 'cad 3d-printing fabrication modeling',
+    'blender': '3d modeling animation graphics',
+    'ard': 'microcontroller electronics physical computing hardware',
+    'iot': 'hardware internet smart electronics sensor',
+    'raspi': 'linux computer single-board hardware',
+    'gen-ai': 'artificial intelligence llm chatgpt prompt',
+    'vibe-code': 'programming coding apps software ai development',
+    'genai': 'artificial intelligence llm prompt agents'
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const main = document.querySelector('#main-content') || document.querySelector('main');
+    const input = document.getElementById('dsc-workshop-search-input');
+    const clearBtn = document.getElementById('dsc-clear-button');
+    const status = document.getElementById('dsc-search-status');
+
+    if (!main || !input) return;
+
+    // Locate Jump-Link Blockquote & adjacent HRs
+    const blockquote = main.querySelector('blockquote');
+    let hrAfterBlockquote = null;
+    if (blockquote) {
+      let next = blockquote.nextElementSibling;
+      while (next) {
+        if (next.tagName.toLowerCase() === 'hr') {
+          hrAfterBlockquote = next;
+          break;
+        }
+        if (next.tagName.toLowerCase() === 'h2') break;
+        next = next.nextElementSibling;
+      }
+    }
+
+    // Discover workshop categories (H2 elements paired with sibling ULs)
+    const categoryPairs = [];
+    const h2Elements = Array.from(main.querySelectorAll('h2')).filter(h2 => {
+      // Exclude H2 elements nested within blockquotes
+      return !h2.closest('blockquote');
+    });
+
+    h2Elements.forEach(h2 => {
+      let sibling = h2.nextElementSibling;
+      while (sibling && sibling.tagName.toLowerCase() !== 'ul' && sibling.tagName.toLowerCase() !== 'h2') {
+        sibling = sibling.nextElementSibling;
+      }
+      if (sibling && sibling.tagName.toLowerCase() === 'ul') {
+        const items = Array.from(sibling.querySelectorAll('li')).map(li => {
+          const text = li.textContent.toLowerCase();
+          const links = Array.from(li.querySelectorAll('a')).map(a => a.href.toLowerCase()).join(' ');
+          const dataKeywords = (li.getAttribute('data-keywords') || '').toLowerCase();
+          
+          let synonymKeywords = '';
+          for (const [key, terms] of Object.entries(SYNONYMS)) {
+            if (links.includes(key)) synonymKeywords += ' ' + terms;
+          }
+
+          const searchIndex = `${text} ${links} ${dataKeywords} ${synonymKeywords} ${h2.textContent.toLowerCase()}`;
+          return { element: li, index: searchIndex };
+        });
+
+        categoryPairs.push({ h2, ul: sibling, items });
+      }
+    });
+
+    const totalWorkshops = categoryPairs.reduce((acc, cat) => acc + cat.items.length, 0);
+
+    const runFilter = () => {
+      const query = input.value.trim().toLowerCase();
+      const tokens = query.split(/\s+/).filter(Boolean);
+
+      // Toggle Jump Blockquote visibility
+      if (tokens.length > 0) {
+        if (blockquote) blockquote.classList.add('dsc-item-hidden');
+        if (hrAfterBlockquote) hrAfterBlockquote.classList.add('dsc-item-hidden');
+      } else {
+        if (blockquote) blockquote.classList.remove('dsc-item-hidden');
+        if (hrAfterBlockquote) hrAfterBlockquote.classList.remove('dsc-item-hidden');
+      }
+
+      let totalMatches = 0;
+
+      categoryPairs.forEach(category => {
+        let categoryMatchCount = 0;
+
+        category.items.forEach(item => {
+          const matches = tokens.every(token => item.index.includes(token));
+          if (matches) {
+            item.element.classList.remove('dsc-item-hidden');
+            categoryMatchCount++;
+            totalMatches++;
+          } else {
+            item.element.classList.add('dsc-item-hidden');
+          }
+        });
+
+        // Hide empty category sections
+        if (categoryMatchCount === 0 && tokens.length > 0) {
+          category.h2.classList.add('dsc-item-hidden');
+          category.ul.classList.add('dsc-item-hidden');
+        } else {
+          category.h2.classList.remove('dsc-item-hidden');
+          category.ul.classList.remove('dsc-item-hidden');
+        }
+      });
+
+      // Update ARIA Live Status region
+      if (tokens.length === 0) {
+        status.textContent = `Showing all ${totalWorkshops} workshops.`;
+      } else if (totalMatches === 0) {
+        status.innerHTML = `No workshops matched "<strong>${escapeHtml(query)}</strong>". <span class="dsc-reset-link" role="button" tabindex="0">Reset search</span>`;
+        const resetLink = status.querySelector('.dsc-reset-link');
+        if (resetLink) {
+          resetLink.addEventListener('click', resetFilter);
+          resetLink.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') resetFilter();
+          });
+        }
+      } else {
+        const noun = totalMatches === 1 ? 'workshop' : 'workshops';
+        status.textContent = `Showing ${totalMatches} matching ${noun}.`;
+      }
+
+      // Sync filter to URL query string
+      const url = new URL(window.location.href);
+      if (tokens.length > 0) {
+        url.searchParams.set('q', query);
+      } else {
+        url.searchParams.delete('q');
+      }
+      window.history.replaceState({}, '', url.toString());
+    };
+
+    const resetFilter = () => {
+      input.value = '';
+      runFilter();
+      input.focus();
+    };
+
+    function escapeHtml(string) {
+      return string.replace(/[&<>"']/g, match => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      }[match]));
+    }
+
+    // Event listeners
+    input.addEventListener('input', runFilter);
+    clearBtn.addEventListener('click', resetFilter);
+
+    // Initialise on load: Read ?q= URL parameter if present
+    const initialQuery = new URLSearchParams(window.location.search).get('q');
+    if (initialQuery) {
+      input.value = initialQuery;
+    }
+    runFilter();
+  });
+})();
+</script>
+
 > ## Jump Directly to a Workshop Category:
 > - [Data Analysis, Visualization, Mapping & GIS](#data)
 > - [Design & Media Production](#design)
