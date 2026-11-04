@@ -205,6 +205,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [Tidy Data](https://lib.uvic.ca/tidy){:target="_blank"}
 
 ## <a id="design"></a>Design & Media Production
+- [3D Scanning with Your Phone & KIRI Engine](https://lib.uvic.ca/kiri){:target="_blank"}
 - [Academic Posters with Canva](https://lib.uvic.ca/apc){:target="_blank"}
 - [Build a basic AI-free Website From Scratch: An Introduction to HTML and CSS](https://lib.uvic.ca/html){:target="_blank"}
 - [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
@@ -246,7 +247,6 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 
 ## <a id="archived"></a>Archived Workshops
 - [3D Design with Autodesk Fusion](https://lib.uvic.ca/fusion360){:target="_blank"} - Intermediate
-- [3D Scanning with Your Phone & KIRI Engine](https://lib.uvic.ca/kiri){:target="_blank"}
 - [Audio Recording for Language Revitalization Games](https://lib.uvic.ca/audio-rev){:target="_blank"}
 - [DataFrames in Pandas](https://uviclibraries.github.io/data-frames/){:target="_blank"} (Python)
 - [Data Visualization with Tableau](https://lib.uvic.ca/tab){:target="_blank"} - Intermediate
