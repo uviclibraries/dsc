@@ -12,7 +12,9 @@ Check out our full list of [**upcoming scheduled workshops**](https://libcal.uvi
 
 If you have any questions about our workshops or are an instructor wanting to have us run one of our workshops in connection with your course, feel free to [send us an email](mailto:rmccue@uvic.ca?Subject=Workshop%20Request){:target="_blank"} to ask about availability. If you would like to be kept up to date with DSC announcements, including new workshops, you can sign up for our [low-volume email list here](https://e1.envoke.com/ext/pages/7ca0996db17fcc4be7f60392f6790490){:target="_blank"}.
 
-Below are workshops that the DSC has made available for anyone in the world to use free of charge! Everything is online and designed so that people can work through them on their own schedule and at their own pace. If you have questions as you go, feel free to contact us.
+Below are workshops that the DSC has made available for anyone in the world to use free of charge! Everything is online and designed so that people can work through them on their own schedule and at their own pace. If you have questions as you go, feel free to contact us. Here are the main categories of workshops:
+- [Archived Workshops](#archived)
+- [Research & Data Literacy Skills](#research)
 
 ## Data Analysis, Visualization, Mapping & GIS
 - [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
@@ -66,11 +68,11 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Modelling in Blender](https://lib.uvic.ca/blender){:target="_blank"}
 - [Resurrect Your Laptop with Linux](https://lib.uvic.ca/linux){:target="_blank"}
 
-## Research & Data Literacy Skills
+## <a id="research"></a>Research & Data Literacy Skills
 - [Creating & Teaching Active Learning Workshops](https://lib.uvic.ca/alw){:target="_blank"}
 - [Data Management Planning](https://lib.uvic.ca/dmp){:target="_blank"}
 
-## Archived Workshops
+## <a id="archived"></a>Archived Workshops
 - [3D Design with Autodesk Fusion](https://lib.uvic.ca/fusion360){:target="_blank"} - Intermediate
 - [3D Scanning with Your Phone & KIRI Engine](https://lib.uvic.ca/kiri){:target="_blank"}
 - [Audio Recording for Language Revitalization Games](https://lib.uvic.ca/audio-rev){:target="_blank"}
