@@ -13,13 +13,15 @@ Check out our full list of [**upcoming scheduled workshops**](https://libcal.uvi
 Below are self-drected workshops that the DSC has made available for anyone in the world to use free of charge!  
 
 ---
-### Jump to different categories of workshops:
-- [Data Analysis, Visualization, Mapping & GIS](#data)
-- [Design & Media Production](#design)
-- [AI Workshop Pathway](#ai)
-- [Research & Data Literacy Skills](#research)
-- [Fabrication & Electronics](#fabrication)
-- [Archived Workshops](#archived)
+
+> ## Jump Directly to a Workshop Category:
+> - [Data Analysis, Visualization, Mapping & GIS](#data)
+> - [Design & Media Production](#design)
+> - [AI Workshop Pathway](#ai)
+> - [Research & Data Literacy Skills](#research)
+> - [Fabrication & Electronics](#fabrication)
+> - [Archived Workshops](#archived)
+
 ---
 
 ## <a id="data"></a>Data Analysis, Visualization, Mapping & GIS
