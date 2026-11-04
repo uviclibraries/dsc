@@ -8,17 +8,19 @@ nav_order: 1
 
 # DSC Workshop Lesson Plans
 
-Check out our full list of [**upcoming scheduled workshops**](https://libcal.uvic.ca/calendar/dsc?cid=7692&t=g&d=0000-00-00&cal=7692&inc=0){:target="_blank"}!
+Check out our full list of [**upcoming scheduled workshops**](https://libcal.uvic.ca/calendar/dsc?cid=7692&t=g&d=0000-00-00&cal=7692&inc=0){:target="_blank"}! If you have any questions about our workshops or are an instructor wanting to have us run one of our workshops in connection with your course, feel free to [send us an email](mailto:rmccue@uvic.ca?Subject=Workshop%20Request){:target="_blank"}. If you would like to be kept up to date with DSC announcements, including new workshops, you can sign up for our [low-volume email list here](https://e1.envoke.com/ext/pages/7ca0996db17fcc4be7f60392f6790490){:target="_blank"}.
 
-If you have any questions about our workshops or are an instructor wanting to have us run one of our workshops in connection with your course, feel free to [send us an email](mailto:rmccue@uvic.ca?Subject=Workshop%20Request){:target="_blank"} to ask about availability. If you would like to be kept up to date with DSC announcements, including new workshops, you can sign up for our [low-volume email list here](https://e1.envoke.com/ext/pages/7ca0996db17fcc4be7f60392f6790490){:target="_blank"}.
+Below are self-drected workshops that the DSC has made available for anyone in the world to use free of charge!  
 
-Below are workshops that the DSC has made available for anyone in the world to use free of charge! Everything is online and designed so that people can work through them on their own schedule and at their own pace. If you have questions as you go, feel free to contact us. Here are the main categories of workshops:
+---
+### Jump to different categories of workshops:
 - [Data Analysis, Visualization, Mapping & GIS](#data)
 - [Design & Media Production](#design)
 - [AI Workshop Pathway](#ai)
 - [Research & Data Literacy Skills](#research)
 - [Fabrication & Electronics](#fabrication)
 - [Archived Workshops](#archived)
+---
 
 ## <a id="data"></a>Data Analysis, Visualization, Mapping & GIS
 - [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
@@ -52,7 +54,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
 - [Zine Making](https://lib.uvic.ca/zines){:target="_blank"}
 
-## <a id="ai"></a>[AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
+## <a id="ai"></a>AI Workshops ([Link to AI Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"})
 - [GenAI: Introduction & Prompt Design](https://lib.uvic.ca/gen-ai){:target="_blank"} (_Introduction_)
 - [AI: Tools for Literature Reviews](https://lib.uvic.ca/ai-lit-search){:target="_blank"} (_Introduction_)
 - [Is Your Smart Phone Listening to You? How to stop Big Tech from Tracking You Online](https://lib.uvic.ca/priv-sec){:target="_blank"} (_Introduction_)
