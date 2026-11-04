@@ -14,227 +14,121 @@ Below are self-drected workshops that the DSC has made available for anyone in t
 
 ---
 
-{::nomarkdown}
 <div id="dsc-workshop-filter-widget" class="dsc-filter-container">
-  <label for="dsc-workshop-search-input" class="dsc-filter-label">Filter workshops on this page:</label>
+  <label for="dsc-workshop-search-input" class="dsc-filter-label">Filter workshops by keyword, tool, or level:</label>
   <div class="dsc-search-input-group">
     <input type="search" id="dsc-workshop-search-input" class="dsc-search-input" placeholder="e.g., spreadsheet, Python, Canva..." autocomplete="off" spellcheck="false" />
     <button type="button" id="dsc-clear-button" class="dsc-clear-btn" aria-label="Clear filter search">Clear</button>
   </div>
   <div id="dsc-search-status" class="dsc-search-status" aria-live="polite"></div>
 </div>
-
 <style>
-/* Base widget styles */
-.dsc-filter-container {
-  box-sizing: border-box;
-  margin: 1rem 0;
-  padding: 1rem 1.1rem;
-  background-color: #f8f9fa;
-  border: 1px solid #e1e4e8;
-  border-radius: 6px;
-  font-family: inherit;
-}
-.dsc-filter-label {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 0.45rem;
-  font-size: 0.92rem;
-  color: #24292e;
-}
-.dsc-search-input-group {
-  display: flex;
-  gap: 0.4rem;
-  align-items: center;
-}
-.dsc-search-input {
-  flex: 1;
-  padding: 0.5rem 0.65rem;
-  font-size: 0.95rem;
-  border: 1px solid #c8ccd0;
-  border-radius: 4px;
-  outline: none;
-  background: #ffffff;
-  box-sizing: border-box;
-}
-.dsc-search-input:focus {
-  border-color: #0366d6;
-  box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.2);
-}
-.dsc-clear-btn {
-  padding: 0.5rem 0.8rem;
-  font-size: 0.88rem;
-  border: 1px solid #d1d5da;
-  border-radius: 4px;
-  background: #ffffff;
-  cursor: pointer;
-  color: #444d56;
-  white-space: nowrap;
-}
-.dsc-clear-btn:hover {
-  background-color: #f3f4f6;
-  color: #24292e;
-}
-.dsc-search-status {
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  color: #586069;
-  min-height: 1.1rem;
-}
-.dsc-reset-link {
-  color: #0366d6;
-  text-decoration: underline;
-  cursor: pointer;
-}
-.dsc-item-hidden {
-  display: none !important;
-}
-
-/* Side-by-side floating layout for tablet & desktop */
+.dsc-filter-container { box-sizing: border-box; margin: 1rem 0; padding: 1rem 1.1rem; background-color: #f8f9fa; border: 1px solid #e1e4e8; border-radius: 6px; font-family: inherit; }
+.dsc-filter-label { display: block; font-weight: 600; margin-bottom: 0.45rem; font-size: 0.92rem; color: #24292e; }
+.dsc-search-input-group { display: flex; gap: 0.4rem; align-items: center; }
+.dsc-search-input { flex: 1; padding: 0.5rem 0.65rem; font-size: 0.95rem; border: 1px solid #c8ccd0; border-radius: 4px; outline: none; background: #ffffff; box-sizing: border-box; }
+.dsc-search-input:focus { border-color: #0366d6; box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.2); }
+.dsc-clear-btn { padding: 0.5rem 0.8rem; font-size: 0.88rem; border: 1px solid #d1d5da; border-radius: 4px; background: #ffffff; cursor: pointer; color: #444d56; white-space: nowrap; }
+.dsc-clear-btn:hover { background-color: #f3f4f6; color: #24292e; }
+.dsc-search-status { margin-top: 0.5rem; font-size: 0.85rem; color: #586069; min-height: 1.1rem; }
+.dsc-reset-link { color: #0366d6; text-decoration: underline; cursor: pointer; }
+.dsc-item-hidden { display: none !important; }
 @media (min-width: 768px) {
-  .dsc-filter-container {
-    float: right;
-    width: 48%;
-    margin: 0 0 1.5rem 2%;
-  }
-  /* Target the Jump-link blockquote sitting immediately next to the widget */
-  .dsc-filter-container + blockquote,
-  blockquote:has(+ .dsc-filter-container) {
-    float: left;
-    width: 48%;
-    margin: 0 2% 1.5rem 0 !important;
-    box-sizing: border-box;
-  }
-  /* Clearfix on the following HR or H2 to keep workshops neatly below both blocks */
-  .dsc-filter-container ~ hr,
-  .dsc-filter-container ~ h2 {
-    clear: both;
-  }
+  .dsc-filter-container { float: right; width: 48%; margin: 0 0 1.5rem 2%; }
+  .dsc-filter-container ~ blockquote { float: left; width: 48%; margin: 0 2% 1.5rem 0 !important; box-sizing: border-box; }
+  .dsc-filter-container.dsc-filtering { float: none; width: 100%; margin: 1rem 0; }
+  .dsc-filter-container ~ hr, .dsc-filter-container ~ h2 { clear: both; }
 }
 </style>
-
 <script>
 (function() {
   var SYNONYMS = {
     'xls': 'spreadsheet data sheets excel',
+    'excel': 'spreadsheet data sheets xls',
     'rstud': 'statistics stats r rstudio data',
     'rvis': 'charts graphics visualization r rstudio ggplot',
     'rintr': 'advanced stats programming r rstudio',
     'nvivo': 'qualitative coding text analysis',
-    'nvadv': 'qualitative coding advanced',
     'qualcoder': 'qualitative coding python open source',
-    'tag': 'qualitative coding text analysis open source',
+    'tag': 'qualitative coding text analysis open source taguette',
     'qgis': 'gis maps spatial geographic spatial-data raster vector',
-    'html': 'web coding web-design development frontend website',
+    'html': 'web coding web-design development frontend website css',
     'photopea': 'photoshop image-editing raster graphics',
     'gimp': 'photoshop image-editing raster graphics open source',
     'fusion360': 'cad 3d-printing fabrication modeling autodesk',
     'blender': '3d modeling animation graphics',
-    'ard': 'microcontroller electronics physical computing hardware',
+    'ard': 'microcontroller electronics physical computing hardware arduino',
     'iot': 'hardware internet smart electronics sensor arduino',
     'raspi': 'linux computer single-board hardware raspberry pi',
-    'gen-ai': 'artificial intelligence llm chatgpt prompt',
-    'vibe-code': 'programming coding apps software ai development',
-    'genai': 'artificial intelligence llm prompt agents'
+    'gen-ai': 'artificial intelligence ai llm chatgpt prompt',
+    'genai': 'artificial intelligence ai llm chatgpt prompt',
+    'vibe-code': 'programming coding apps software ai development python'
   };
-
   function initFilter() {
     var widget = document.getElementById('dsc-workshop-filter-widget');
     var input = document.getElementById('dsc-workshop-search-input');
     var clearBtn = document.getElementById('dsc-clear-button');
     var status = document.getElementById('dsc-search-status');
     if (!widget || !input || !clearBtn || !status) return;
-
-    var container = widget.parentElement || document.body;
-    var blockquote = container.querySelector('blockquote');
+    var blockquote = document.querySelector('blockquote');
     var hrAfterBlockquote = null;
     if (blockquote) {
       var next = blockquote.nextElementSibling;
       while (next && next.tagName.toLowerCase() !== 'h2') {
-        if (next.tagName.toLowerCase() === 'hr') {
-          hrAfterBlockquote = next;
-          break;
-        }
+        if (next.tagName.toLowerCase() === 'hr') { hrAfterBlockquote = next; break; }
         next = next.nextElementSibling;
       }
     }
-
-    var h2Elements = Array.from(container.querySelectorAll('h2')).filter(function(h2) {
-      if (h2.closest('blockquote')) return false;
-      if (h2.textContent.toLowerCase().indexOf('jump directly') !== -1) return false;
-      return true;
+    var allH2s = Array.from(document.querySelectorAll('h2')).filter(function(h2) {
+      return !h2.closest('blockquote') && h2.textContent.toLowerCase().indexOf('jump') === -1;
     });
-
     var categoryPairs = [];
-    h2Elements.forEach(function(h2) {
+    allH2s.forEach(function(h2) {
       var sibling = h2.nextElementSibling;
       var uls = [];
       while (sibling && sibling.tagName.toLowerCase() !== 'h2') {
-        if (sibling.tagName.toLowerCase() === 'ul') {
-          uls.push(sibling);
-        }
+        if (sibling.tagName.toLowerCase() === 'ul') { uls.push(sibling); }
         sibling = sibling.nextElementSibling;
       }
       var items = [];
       uls.forEach(function(ul) {
         Array.from(ul.querySelectorAll('li')).forEach(function(li) {
           var text = li.textContent.toLowerCase();
-          var links = Array.from(li.querySelectorAll('a')).map(function(a) { return a.href.toLowerCase(); }).join(' ');
+          var links = Array.from(li.querySelectorAll('a')).map(function(a) { return (a.getAttribute('href') || '').toLowerCase(); }).join(' ');
           var dataKeywords = (li.getAttribute('data-keywords') || '').toLowerCase();
           var synonymKeywords = '';
           for (var key in SYNONYMS) {
-            if (links.indexOf(key) !== -1) {
-              synonymKeywords += ' ' + SYNONYMS[key];
-            }
+            if (links.indexOf(key) !== -1 || text.indexOf(key) !== -1) { synonymKeywords += ' ' + SYNONYMS[key]; }
           }
           var searchIndex = text + ' ' + links + ' ' + dataKeywords + ' ' + synonymKeywords + ' ' + h2.textContent.toLowerCase();
           items.push({ element: li, index: searchIndex });
         });
       });
-      if (items.length > 0) {
-        categoryPairs.push({ h2: h2, uls: uls, items: items });
-      }
+      if (items.length > 0) { categoryPairs.push({ h2: h2, uls: uls, items: items }); }
     });
-
     var totalWorkshops = categoryPairs.reduce(function(acc, cat) { return acc + cat.items.length; }, 0);
-
     function escapeHtml(str) {
-      return str.replace(/[&<>"']/g, function(m) {
-        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m];
-      });
+      return str.replace(/[&<>"']/g, function(m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]; });
     }
-
     function runFilter() {
       var query = input.value.trim().toLowerCase();
       var tokens = query.split(/\s+/).filter(Boolean);
-
-      // Hide blockquote and reset widget width when actively filtering
       if (tokens.length > 0) {
         if (blockquote) blockquote.classList.add('dsc-item-hidden');
         if (hrAfterBlockquote) hrAfterBlockquote.classList.add('dsc-item-hidden');
-        widget.style.float = 'none';
-        widget.style.width = '100%';
-        widget.style.margin = '1rem 0';
+        widget.classList.add('dsc-filtering');
       } else {
         if (blockquote) blockquote.classList.remove('dsc-item-hidden');
         if (hrAfterBlockquote) hrAfterBlockquote.classList.remove('dsc-item-hidden');
-        widget.style.float = '';
-        widget.style.width = '';
-        widget.style.margin = '';
+        widget.classList.remove('dsc-filtering');
       }
-
       var totalMatches = 0;
       categoryPairs.forEach(function(category) {
         var categoryMatchCount = 0;
         category.items.forEach(function(item) {
           var matches = tokens.every(function(t) { return item.index.indexOf(t) !== -1; });
-          if (matches) {
-            item.element.classList.remove('dsc-item-hidden');
-            categoryMatchCount++;
-            totalMatches++;
-          } else {
-            item.element.classList.add('dsc-item-hidden');
-          }
+          if (matches) { item.element.classList.remove('dsc-item-hidden'); categoryMatchCount++; totalMatches++; }
+          else { item.element.classList.add('dsc-item-hidden'); }
         });
         if (categoryMatchCount === 0 && tokens.length > 0) {
           category.h2.classList.add('dsc-item-hidden');
@@ -244,7 +138,6 @@ Below are self-drected workshops that the DSC has made available for anyone in t
           category.uls.forEach(function(ul) { ul.classList.remove('dsc-item-hidden'); });
         }
       });
-
       if (tokens.length === 0) {
         status.textContent = 'Showing all ' + totalWorkshops + ' workshops.';
       } else if (totalMatches === 0) {
@@ -252,54 +145,31 @@ Below are self-drected workshops that the DSC has made available for anyone in t
         var resetLink = status.querySelector('.dsc-reset-link');
         if (resetLink) {
           resetLink.addEventListener('click', resetFilter);
-          resetLink.addEventListener('keydown', function(e) {
-            if (e.key === 'Enter' || e.key === ' ') resetFilter();
-          });
+          resetLink.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') resetFilter(); });
         }
       } else {
         var noun = totalMatches === 1 ? 'workshop' : 'workshops';
         status.textContent = 'Showing ' + totalMatches + ' matching ' + noun + '.';
       }
-
       try {
         var url = new URL(window.location.href);
-        if (tokens.length > 0) {
-          url.searchParams.set('q', query);
-        } else {
-          url.searchParams.delete('q');
-        }
+        if (tokens.length > 0) { url.searchParams.set('q', query); } else { url.searchParams.delete('q'); }
         window.history.replaceState({}, '', url.toString());
       } catch (err) {}
     }
-
-    function resetFilter() {
-      input.value = '';
-      runFilter();
-      input.focus();
-    }
-
+    function resetFilter() { input.value = ''; runFilter(); input.focus(); }
     input.addEventListener('input', runFilter);
     input.addEventListener('search', runFilter);
     clearBtn.addEventListener('click', resetFilter);
-
     try {
       var initialQuery = new URLSearchParams(window.location.search).get('q');
-      if (initialQuery) {
-        input.value = initialQuery;
-      }
+      if (initialQuery) { input.value = initialQuery; }
     } catch (e) {}
-
     runFilter();
   }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initFilter);
-  } else {
-    initFilter();
-  }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initFilter); } else { initFilter(); }
 })();
 </script>
-{:/nomarkdown}
 
 > ## Jump to a Workshop Category:
 > - [Data Analysis, Visualization, Mapping & GIS](#data)
