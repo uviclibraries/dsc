@@ -242,7 +242,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 ## <a id="research"></a>Research & Data Literacy Skills
 - [Creating & Teaching Active Learning Workshops](https://lib.uvic.ca/alw){:target="_blank"}
 - [Data Management Planning](https://lib.uvic.ca/dmp){:target="_blank"}
-- Knowledge Mobilization Skills (can be requested as in-class workshop)
+- Knowledge Mobilization Skills (can be requested as in-class workshop) 
 
 ## <a id="archived"></a>Archived Workshops
 - [3D Design with Autodesk Fusion](https://lib.uvic.ca/fusion360){:target="_blank"} - Intermediate
