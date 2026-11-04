@@ -14,6 +14,14 @@ Below are self-drected workshops that the DSC has made available for anyone in t
 
 ---
 
+> ## Jump Directly to a Workshop Category:
+> - [Data Analysis, Visualization, Mapping & GIS](#data)
+> - [Design & Media Production](#design)
+> - [AI Workshop Pathway](#ai)
+> - [Fabrication & Electronics](#fabrication)
+> - [Research & Data Literacy Skills](#research)
+> - [Archived Workshops](#archived)
+
 {::nomarkdown}
 <div id="dsc-workshop-filter-widget" class="dsc-filter-container">
   <label for="dsc-workshop-search-input" class="dsc-filter-label">Filter workshops on this page by keyword or tool:</label>
@@ -199,14 +207,6 @@ Below are self-drected workshops that the DSC has made available for anyone in t
 })();
 </script>
 {:/nomarkdown}
-
-> ## Jump Directly to a Workshop Category:
-> - [Data Analysis, Visualization, Mapping & GIS](#data)
-> - [Design & Media Production](#design)
-> - [AI Workshop Pathway](#ai)
-> - [Fabrication & Electronics](#fabrication)
-> - [Research & Data Literacy Skills](#research)
-> - [Archived Workshops](#archived)
 
 ---
 
