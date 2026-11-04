@@ -254,7 +254,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [Interactive & Multimedia Website Content with H5P](https://lib.uvic.ca/h5p){:target="_blank"}
 - [Image Editing with Adobe Photoshop](https://uviclibraries.github.io/photoshop/){:target="_blank"}
 - [Image Editing with GIMP](https://lib.uvic.ca/gimp){:target="_blank"} (an open source Adobe Photoshop alternative)
-- Knowledge Mobilization Skills (Can be requested as in-class workshop. No lesson plan link currently available)
+- Knowledge Mobilization Skills (can be requested as in-class workshop)
 - [Laser Cutting Ocean Floor Contour Maps](https://lib.uvic.ca/laser-maps){:target="_blank"}
 - [Scientific Documents with Latex](https://lib.uvic.ca/lt){:target="_blank"}
 - [Survey Creation with SurveyMonkey](https://lib.uvic.ca/survey){:target="_blank"}
