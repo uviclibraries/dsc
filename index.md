@@ -12,6 +12,7 @@ Check out our full list of [**upcoming scheduled workshops**](https://libcal.uvi
 
 Below are self-drected workshops that the DSC has made available for anyone in the world to use free of charge!  
 
+{::nomarkdown}
 <div id="dsc-workshop-filter-widget" class="dsc-filter-box">
   <label for="dsc-workshop-search-input" class="dsc-filter-label">Filter workshops by keyword:</label>
   <div class="dsc-search-input-group">
@@ -178,6 +179,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
   if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initFilter); } else { initFilter(); }
 })();
 </script>
+{:/nomarkdown}
 
 > ## Jump to a Workshop Category:
 > - [Data Analysis, Visualization, Mapping & GIS](#data)
