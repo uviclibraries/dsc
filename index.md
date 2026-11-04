@@ -227,7 +227,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [GenAI: Gemini Notebook a Personal Tool for Research & Productivity](https://lib.uvic.ca/genai-notebooklm){:target="_blank"} (_Intermediate_)
 - [From Ideas to Apps: Create Apps & Learning Games with Generative AI](https://lib.uvic.ca/vibe-code-intro){:target="_blank"} (_Intermediate_)
 - [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (_Advanced_)
-- Create Local Apps for Research Using GenAI Vibe Coding Techniques (_Advanced_) - COMING FALL 2026 or SPRING 2027
+- Create Local Apps for Research Using GenAI Vibe Coding Techniques (_Advanced_) - COMING SPRING 2027
 
 ## <a id="fabrication"></a>Fabrication & Electronics
 - [3D Design & Print](https://lib.uvic.ca/3d){:target="_blank"} - Introduction
