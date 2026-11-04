@@ -219,7 +219,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
 - [Zine Making](https://lib.uvic.ca/zines){:target="_blank"}
 
-## <a id="ai"></a>AI Workshops ([Link to AI Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"})
+## <a id="ai"></a>AI Workshops ([link to AI Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"})
 - [GenAI: Introduction & Prompt Design](https://lib.uvic.ca/gen-ai){:target="_blank"} (_Introduction_)
 - [AI: Tools for Literature Reviews](https://lib.uvic.ca/ai-lit-search){:target="_blank"} (_Introduction_)
 - [Is Your Smart Phone Listening to You? How to stop Big Tech from Tracking You Online](https://lib.uvic.ca/priv-sec){:target="_blank"} (_Introduction_)
@@ -242,6 +242,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 ## <a id="research"></a>Research & Data Literacy Skills
 - [Creating & Teaching Active Learning Workshops](https://lib.uvic.ca/alw){:target="_blank"}
 - [Data Management Planning](https://lib.uvic.ca/dmp){:target="_blank"}
+- Knowledge Mobilization Skills (can be requested as in-class workshop)
 
 ## <a id="archived"></a>Archived Workshops
 - [3D Design with Autodesk Fusion](https://lib.uvic.ca/fusion360){:target="_blank"} - Intermediate
@@ -254,7 +255,6 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [Interactive & Multimedia Website Content with H5P](https://lib.uvic.ca/h5p){:target="_blank"}
 - [Image Editing with Adobe Photoshop](https://uviclibraries.github.io/photoshop/){:target="_blank"}
 - [Image Editing with GIMP](https://lib.uvic.ca/gimp){:target="_blank"} (an open source Adobe Photoshop alternative)
-- Knowledge Mobilization Skills (can be requested as in-class workshop)
 - [Laser Cutting Ocean Floor Contour Maps](https://lib.uvic.ca/laser-maps){:target="_blank"}
 - [Scientific Documents with Latex](https://lib.uvic.ca/lt){:target="_blank"}
 - [Survey Creation with SurveyMonkey](https://lib.uvic.ca/survey){:target="_blank"}
