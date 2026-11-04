@@ -187,8 +187,6 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 > - [Research & Data Literacy Skills](#research)
 > - [Archived Workshops](#archived)
 
----
-
 ## <a id="data"></a>Data Analysis, Visualization, Mapping & GIS
 - [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
 - [RStudio Summary Statistics Introduction](https://lib.uvic.ca/rstud){:target="_blank"} 
