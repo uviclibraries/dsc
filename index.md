@@ -13,10 +13,14 @@ Check out our full list of [**upcoming scheduled workshops**](https://libcal.uvi
 If you have any questions about our workshops or are an instructor wanting to have us run one of our workshops in connection with your course, feel free to [send us an email](mailto:rmccue@uvic.ca?Subject=Workshop%20Request){:target="_blank"} to ask about availability. If you would like to be kept up to date with DSC announcements, including new workshops, you can sign up for our [low-volume email list here](https://e1.envoke.com/ext/pages/7ca0996db17fcc4be7f60392f6790490){:target="_blank"}.
 
 Below are workshops that the DSC has made available for anyone in the world to use free of charge! Everything is online and designed so that people can work through them on their own schedule and at their own pace. If you have questions as you go, feel free to contact us. Here are the main categories of workshops:
-- [Archived Workshops](#archived)
+- [Data Analysis, Visualization, Mapping & GIS](#data)
+- [Design & Media Production](#design)
+- [AI Workshop Pathway](#ai)
 - [Research & Data Literacy Skills](#research)
+- [Fabrication & Electronics](#fabrication)
+- [Archived Workshops](#archived)
 
-## Data Analysis, Visualization, Mapping & GIS
+## <a id="data"></a>Data Analysis, Visualization, Mapping & GIS
 - [Data Analysis with Excel](https://lib.uvic.ca/xls){:target="_blank"}
 - [RStudio Summary Statistics Introduction](https://lib.uvic.ca/rstud){:target="_blank"} 
 - [RStudio Data Manipulation & Visualization Introduction](https://lib.uvic.ca/rvis){:target="_blank"} 
@@ -33,7 +37,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Qualitative Coding with Taguette](https://lib.uvic.ca/tag){:target="_blank"}
 - [Tidy Data](https://lib.uvic.ca/tidy){:target="_blank"}
 
-## Design & Media Production
+## <a id="design"></a>Design & Media Production
 - [Academic Posters with Canva](https://lib.uvic.ca/apc){:target="_blank"}
 - [Build a basic AI-free Website From Scratch: An Introduction to HTML and CSS](https://lib.uvic.ca/html){:target="_blank"}
 - [Creating 360 Tours & Narrative Maps](https://lib.uvic.ca/vr360){:target="_blank"}
@@ -48,7 +52,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
 - [Zine Making](https://lib.uvic.ca/zines){:target="_blank"}
 
-## [AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
+## <a id="ai"></a>[AI Workshop Pathway](https://lib.uvic.ca/genai-pathway){:target="_blank"}
 - [GenAI: Introduction & Prompt Design](https://lib.uvic.ca/gen-ai){:target="_blank"} (_Introduction_)
 - [AI: Tools for Literature Reviews](https://lib.uvic.ca/ai-lit-search){:target="_blank"} (_Introduction_)
 - [Is Your Smart Phone Listening to You? How to stop Big Tech from Tracking You Online](https://lib.uvic.ca/priv-sec){:target="_blank"} (_Introduction_)
@@ -58,7 +62,7 @@ Below are workshops that the DSC has made available for anyone in the world to u
 - [GenAI: Research Tools](https://lib.uvic.ca/genai-research-adv){:target="_blank"} (_Advanced_)
 - Create Local Apps for Research Using GenAI Vibe Coding Techniques (_Advanced_) - COMING FALL 2026 or SPRING 2027
 
-## Fabrication & Electronics
+## <a id="fabrication"></a>Fabrication & Electronics
 - [3D Design & Print](https://lib.uvic.ca/3d){:target="_blank"} - Introduction
 - [Design for Laser Cutting](https://lib.uvic.ca/lasdes){:target="_blank"}
 - [Electronics with Arduino](https://lib.uvic.ca/ard){:target="_blank"}
