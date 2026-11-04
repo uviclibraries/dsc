@@ -12,7 +12,7 @@ Check out our full list of [**upcoming scheduled workshops**](https://libcal.uvi
 
 Below are self-drected workshops that the DSC has made available for anyone in the world to use free of charge!  
 
----
+> ## Jump to a Workshop Category:
 
 <div id="dsc-workshop-filter-widget" class="dsc-filter-container">
   <label for="dsc-workshop-search-input" class="dsc-filter-label">Filter workshops by keyword, tool, or level:</label>
@@ -171,7 +171,6 @@ Below are self-drected workshops that the DSC has made available for anyone in t
 })();
 </script>
 
-> ## Jump to a Workshop Category:
 > - [Data Analysis, Visualization, Mapping & GIS](#data)
 > - [Design & Media Production](#design)
 > - [AI Workshop Pathway](#ai)
