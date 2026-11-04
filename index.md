@@ -12,10 +12,8 @@ Check out our full list of [**upcoming scheduled workshops**](https://libcal.uvi
 
 Below are self-drected workshops that the DSC has made available for anyone in the world to use free of charge!  
 
-> ## Jump to a Workshop Category:
-
-<div id="dsc-workshop-filter-widget" class="dsc-filter-container">
-  <label for="dsc-workshop-search-input" class="dsc-filter-label">Filter workshops by keyword, tool, or level:</label>
+<div id="dsc-workshop-filter-widget" class="dsc-filter-box">
+  <label for="dsc-workshop-search-input" class="dsc-filter-label">Filter workshops by keyword:</label>
   <div class="dsc-search-input-group">
     <input type="search" id="dsc-workshop-search-input" class="dsc-search-input" placeholder="e.g., spreadsheet, Python, Canva..." autocomplete="off" spellcheck="false" />
     <button type="button" id="dsc-clear-button" class="dsc-clear-btn" aria-label="Clear filter search">Clear</button>
@@ -23,22 +21,29 @@ Below are self-drected workshops that the DSC has made available for anyone in t
   <div id="dsc-search-status" class="dsc-search-status" aria-live="polite"></div>
 </div>
 <style>
-.dsc-filter-container { box-sizing: border-box; margin: 1rem 0; padding: 1rem 1.1rem; background-color: #f8f9fa; border: 1px solid #e1e4e8; border-radius: 6px; font-family: inherit; }
+.dsc-filter-box { box-sizing: border-box; padding: 0.85rem 1rem; background-color: #ffffff; border: 1px solid #d1d5da; border-radius: 6px; font-family: inherit; margin: 0.5rem 0 1rem 0; }
 .dsc-filter-label { display: block; font-weight: 600; margin-bottom: 0.45rem; font-size: 0.92rem; color: #24292e; }
 .dsc-search-input-group { display: flex; gap: 0.4rem; align-items: center; }
 .dsc-search-input { flex: 1; padding: 0.5rem 0.65rem; font-size: 0.95rem; border: 1px solid #c8ccd0; border-radius: 4px; outline: none; background: #ffffff; box-sizing: border-box; }
 .dsc-search-input:focus { border-color: #0366d6; box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.2); }
-.dsc-clear-btn { padding: 0.5rem 0.8rem; font-size: 0.88rem; border: 1px solid #d1d5da; border-radius: 4px; background: #ffffff; cursor: pointer; color: #444d56; white-space: nowrap; }
-.dsc-clear-btn:hover { background-color: #f3f4f6; color: #24292e; }
+.dsc-clear-btn { padding: 0.5rem 0.8rem; font-size: 0.88rem; border: 1px solid #d1d5da; border-radius: 4px; background: #f6f8fa; cursor: pointer; color: #444d56; white-space: nowrap; }
+.dsc-clear-btn:hover { background-color: #e1e4e8; color: #24292e; }
 .dsc-search-status { margin-top: 0.5rem; font-size: 0.85rem; color: #586069; min-height: 1.1rem; }
 .dsc-reset-link { color: #0366d6; text-decoration: underline; cursor: pointer; }
 .dsc-item-hidden { display: none !important; }
+blockquote.dsc-has-filter::after { content: ""; display: table; clear: both; }
+blockquote.dsc-has-filter h2 { width: 100%; clear: both; margin-top: 0.2rem !important; margin-bottom: 0.75rem !important; }
 @media (min-width: 768px) {
-  .dsc-filter-container { float: right; width: 48%; margin: 0 0 1.5rem 2%; }
-  .dsc-filter-container ~ blockquote { float: left; width: 48%; margin: 0 2% 1.5rem 0 !important; box-sizing: border-box; }
-  .dsc-filter-container.dsc-filtering { float: none; width: 100%; margin: 1rem 0; }
-  .dsc-filter-container ~ hr, .dsc-filter-container ~ h2 { clear: both; }
+  blockquote.dsc-has-filter #dsc-workshop-filter-widget { float: right; width: 48%; margin: 0 0 0.5rem 2%; }
+  blockquote.dsc-has-filter ul { float: left; width: 48%; margin: 0 2% 0.5rem 0 !important; padding-left: 1.25rem !important; box-sizing: border-box; }
 }
+@media (max-width: 767px) {
+  blockquote.dsc-has-filter #dsc-workshop-filter-widget { float: none; width: 100%; margin: 1rem 0 0.5rem 0; }
+  blockquote.dsc-has-filter ul { float: none; width: 100%; }
+}
+blockquote.dsc-is-filtering { border-left: none !important; background: transparent !important; padding: 0 !important; margin: 1rem 0 !important; }
+blockquote.dsc-is-filtering h2, blockquote.dsc-is-filtering ul { display: none !important; }
+blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important; width: 100% !important; margin: 0 0 1rem 0 !important; }
 </style>
 <script>
 (function() {
@@ -73,6 +78,11 @@ Below are self-drected workshops that the DSC has made available for anyone in t
     var blockquote = document.querySelector('blockquote');
     var hrAfterBlockquote = null;
     if (blockquote) {
+      var h2InBlockquote = blockquote.querySelector('h2');
+      if (h2InBlockquote) {
+        h2InBlockquote.insertAdjacentElement('afterend', widget);
+        blockquote.classList.add('dsc-has-filter');
+      }
       var next = blockquote.nextElementSibling;
       while (next && next.tagName.toLowerCase() !== 'h2') {
         if (next.tagName.toLowerCase() === 'hr') { hrAfterBlockquote = next; break; }
@@ -114,13 +124,11 @@ Below are self-drected workshops that the DSC has made available for anyone in t
       var query = input.value.trim().toLowerCase();
       var tokens = query.split(/\s+/).filter(Boolean);
       if (tokens.length > 0) {
-        if (blockquote) blockquote.classList.add('dsc-item-hidden');
+        if (blockquote) blockquote.classList.add('dsc-is-filtering');
         if (hrAfterBlockquote) hrAfterBlockquote.classList.add('dsc-item-hidden');
-        widget.classList.add('dsc-filtering');
       } else {
-        if (blockquote) blockquote.classList.remove('dsc-item-hidden');
+        if (blockquote) blockquote.classList.remove('dsc-is-filtering');
         if (hrAfterBlockquote) hrAfterBlockquote.classList.remove('dsc-item-hidden');
-        widget.classList.remove('dsc-filtering');
       }
       var totalMatches = 0;
       categoryPairs.forEach(function(category) {
@@ -171,6 +179,7 @@ Below are self-drected workshops that the DSC has made available for anyone in t
 })();
 </script>
 
+> ## Jump to a Workshop Category:
 > - [Data Analysis, Visualization, Mapping & GIS](#data)
 > - [Design & Media Production](#design)
 > - [AI Workshop Pathway](#ai)
