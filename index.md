@@ -250,7 +250,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [Audio Recording for Language Revitalization Games](https://lib.uvic.ca/audio-rev){:target="_blank"}
 - [DataFrames in Pandas](https://uviclibraries.github.io/data-frames/){:target="_blank"} (Python)
 - [Data Visualization with Tableau](https://lib.uvic.ca/tab){:target="_blank"} - Intermediate
-- [Data Wrangling or cleaning with OpenRefine](https://lib.uvic.ca/or){:target="_blank"}
+- [Data Wrangling or Cleaning with OpenRefine](https://lib.uvic.ca/or){:target="_blank"}
 - [Electronics with Raspberry Pi](https://lib.uvic.ca/raspi){:target="_blank"} (Needs updating)
 - [Interactive & Multimedia Website Content with H5P](https://lib.uvic.ca/h5p){:target="_blank"}
 - [Image Editing with Adobe Photoshop](https://uviclibraries.github.io/photoshop/){:target="_blank"}
