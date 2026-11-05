@@ -212,7 +212,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [Design & Layout with Canva](https://lib.uvic.ca/dl){:target="_blank"} - Introduction
 - [Death by PowerPoint](https://lib.uvic.ca/ppt-death){:target="_blank"} (Creating Pursuasive & Engaging Presentations)
 - [Image Editing with Photopea](https://uviclibraries.github.io/image-editing-photopea/){:target="_blank"} (a free Adobe Photoshop alternative)
-- [Interactive, Nonlinear Stories with Twine](https://lib.uvic.ca/tw){:target="_blank"}
+- [Choose Your Own Adventure Stories, Games & Guided Interviews with Twine](https://lib.uvic.ca/tw){:target="_blank"}
 - [Personal Websites with WordPress](https://lib.uvic.ca/wp){:target="_blank"}
 - [Photography with your Smartphone](https://lib.uvic.ca/spp){:target="_blank"}
 - [Introduction to Podcasting with Audacity](https://lib.uvic.ca/pod){:target="_blank"}
