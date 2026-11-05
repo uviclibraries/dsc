@@ -215,7 +215,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [Interactive, Nonlinear Stories with Twine](https://lib.uvic.ca/tw){:target="_blank"}
 - [Personal Websites with WordPress](https://lib.uvic.ca/wp){:target="_blank"}
 - [Photography with your Smartphone](https://lib.uvic.ca/spp){:target="_blank"}
-- [Podcasting with Audacity](https://lib.uvic.ca/pod){:target="_blank"}
+- [Introduction to Podcasting with Audacity](https://lib.uvic.ca/pod){:target="_blank"}
 - [Sketchnoting: Doodle Your Way to Better Grades](https://lib.uvic.ca/skn){:target="_blank"}
 - [Video Editing with iMovie or Windows ClipChamp](https://lib.uvic.ca/vid){:target="_blank"} (Win, Mac)
 - [Zine Making](https://lib.uvic.ca/zines){:target="_blank"}
