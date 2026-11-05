@@ -200,7 +200,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - [Infographics with Canva](https://lib.uvic.ca/ig){:target="_blank"}
 - [Qualitative Data Analysis & Coding with NVIVO](https://lib.uvic.ca/nvivo){:target="_blank"}
 - [Qualitative Data Analysis & Coding with NVIVO](https://lib.uvic.ca/nvadv){:target="_blank"} - Advanced
-- [Qualitative Data Analysis & Coding with QualCoder](https://github.com/uviclibraries/qualcoder){:target="_blank"}
+- [Qualitative Data Analysis & Coding with QualCoder](https://uviclibraries.github.io/qualcoder/){:target="_blank"}
 - [Qualitative Coding with Taguette](https://lib.uvic.ca/tag){:target="_blank"}
 - [Tidy Data](https://lib.uvic.ca/tidy){:target="_blank"}
 
