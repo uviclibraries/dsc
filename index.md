@@ -246,6 +246,7 @@ blockquote.dsc-is-filtering #dsc-workshop-filter-widget { float: none !important
 - Knowledge Mobilization Skills (can be requested as in-class workshop) 
 
 ## <a id="archived"></a>Archived Workshops
+The following workshops are not being regularly scheduled, and may require updating to reflect updated software interfaces. That said, we are making them available as they may contain helpful information for some people.
 - [3D Design with Autodesk Fusion](https://lib.uvic.ca/fusion360){:target="_blank"} - Intermediate
 - [Audio Recording for Language Revitalization Games](https://lib.uvic.ca/audio-rev){:target="_blank"}
 - [DataFrames in Pandas](https://uviclibraries.github.io/data-frames/){:target="_blank"} (Python)
